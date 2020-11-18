@@ -50,7 +50,6 @@ async function processLineByLine() {
 }
 
 async function output() {
-    let imgsOk = []
     maps.forEach(async (val, key) => {
 
         let finalimgs = []
